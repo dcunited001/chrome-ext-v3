@@ -5,6 +5,7 @@ public/js
 /checkouts
 /src/gen
 /ext/js
+/contextmenu/js
 
 pom.xml
 pom.xml.asc

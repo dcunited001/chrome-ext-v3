@@ -1,0 +1,14 @@
+{
+  "name": "Context Menu Test",
+  "description": "Demonstrates usage and features of the event page by reminding user to drink water",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["alarms", "notifications", "storage", "contextMenus"],
+  "background": {
+    "service_worker": "js/sw.js",
+    "type": "module"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self' 'unsafe-eval' 'wasm-unsafe-eval';"
+  }
+}
