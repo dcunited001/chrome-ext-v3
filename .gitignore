@@ -6,6 +6,7 @@ public/js
 /src/gen
 /ext/js
 /contextmenu/js
+/ext2/js
 
 pom.xml
 pom.xml.asc
