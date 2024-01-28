@@ -2,6 +2,12 @@
   "name": "chrome-ext-v3",
   "version": "0.0.1",
   "private": true,
+  "scripts": {
+    "sc": "shadow-cljs",
+    "server": "shadow-cljs stop && shadow-cljs start",
+    "start": "shadow-cljs watch app",
+    "build": "yarn clean && shadow-cljs release app"
+  },
   "devDependencies": {
     "shadow-cljs": "2.20.2"
   }
